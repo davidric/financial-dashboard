@@ -1,0 +1,77 @@
+/*
+  Variables
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+blue = #125688
+// offwhite = #fafafa
+lightgrey  = #EDEEED
+lightgray = lightgrey // OH Canada!
+
+html
+  font-size 13px
+  font-family 'Open Sans', sans-serif
+  /*letter-spacing -1px*/
+
+h1
+  font-weight 400
+  color #464646
+  a
+    color blue
+    text-decoration none
+    &:focus
+      outline 0
+
+h2
+  margin-top 0
+  margin-bottom 3px
+  font-weight normal
+
+.container
+  max-width: 1055px;
+  margin: 0 auto
+
+.container-inner
+  max-width 970px
+  margin 0 auto
+
+h3
+  font-size 18px
+  margin 0
+
+h4
+  font-size 13px
+  margin 0
+
+.red
+  color red
+
+.david-rica
+  font-family billabong, 'billabongregular'
+  text-align center
+  font-weight 100
+  font-size 5rem
+  margin 6rem 0
+  letter-spacing -1px
+  text-shadow 0px 4px 0 rgba(18, 86, 136, 0.11)
+  a
+    color blue
+    text-decoration none
+    &:focus
+      outline 0
+
+
+// "Instagram-like" webfont
+
+@font-face {
+    font-family: 'billabongregular';
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot');
+    src: url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.woff') format('woff'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.ttf') format('truetype'),
+         url('https://cdn.rawgit.com/milktronics/beaglegr.am/master/public/fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
